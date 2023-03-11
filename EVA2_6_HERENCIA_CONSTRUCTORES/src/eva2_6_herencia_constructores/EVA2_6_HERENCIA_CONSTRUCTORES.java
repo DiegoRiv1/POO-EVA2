@@ -1,0 +1,20 @@
+package eva2_6_herencia_constructores;
+/**
+ * @author Diego
+ */
+public class EVA2_6_HERENCIA_CONSTRUCTORES {
+
+    
+    public static void main(String[] args) {
+        Animal animal = new Animal();
+        animal.comer();
+        animal.respirar();
+        
+        System.out.println("\nClase Mamifero");
+        Mamifero mamifero = new Mamifero();
+        mamifero.comer();
+        mamifero.respirar();
+        mamifero.tenerPelo();
+    }
+    
+}
